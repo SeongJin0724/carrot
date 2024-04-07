@@ -103,14 +103,14 @@
 }
 .main .meChat_wrap .meChat_data {
   font-size: 12px;
-  color: #868b94;
+  color: #c5c6ca;
 }
 .main .meChat_wrap .meChat {
   color: #fff;
   background-color: #ff6f0f;
   font-size: 14px;
   padding: 10px 8px;
-  border-radius: 20px;
+  border-radius: 12px;
 }
 .footer {
   width: 100%;
