@@ -96,6 +96,22 @@
   text-align: center;
   margin-top: 12px;
 }
+.main .meChat_wrap {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.main .meChat_wrap .meChat_data {
+  font-size: 12px;
+  color: #868b94;
+}
+.main .meChat_wrap .meChat {
+  color: #fff;
+  background-color: #ff6f0f;
+  font-size: 14px;
+  padding: 10px 8px;
+  border-radius: 20px;
+}
 .footer {
   width: 100%;
   position: absolute;
