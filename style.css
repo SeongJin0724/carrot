@@ -50,7 +50,7 @@
 }
 .profile .profile_main .profile_txt .profile_title {
   font-weight: 600;
-  opacity: 0.88;
+  opacity: 0.85;
 }
 .profile .profile_main .profile_txt .profile_title span {
   font-weight: 500;
@@ -59,7 +59,7 @@
 .profile .profile_main .profile_txt .price {
   font-weight: 600;
   color: #000;
-  opacity: 0.88;
+  opacity: 0.85;
 }
 /* .profile .profile_main .profile_txt .price .price_letter {
   letter-spacing: 1.2px;
