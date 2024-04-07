@@ -102,6 +102,12 @@
   justify-content: end;
   align-items: end;
 }
+.main .meChat_wrap span {
+  display: block;
+}
+.main .sellChat_wrap span {
+  display: block;
+}
 .main .meChat_wrap .meChat_data {
   font-size: 12px;
   color: #c5c6ca;
