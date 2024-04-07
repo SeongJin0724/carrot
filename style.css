@@ -47,17 +47,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  opacity: 0.9;
 }
 .profile .profile_main .profile_txt .profile_title {
   font-weight: 600;
+  opacity: 0.88;
 }
 .profile .profile_main .profile_txt .profile_title span {
   font-weight: 500;
+  opacity: 1;
 }
 .profile .profile_main .profile_txt .price {
   font-weight: 600;
   color: #000;
+  opacity: 0.88;
 }
 /* .profile .profile_main .profile_txt .price .price_letter {
   letter-spacing: 1.2px;
@@ -65,6 +67,7 @@
 .profile .profile_main .profile_txt .price .price_txt {
   color: #95999d;
   font-weight: 500;
+  opacity: 1;
 }
 .profile .profile_icon {
   width: 100%;
