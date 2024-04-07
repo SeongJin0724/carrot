@@ -43,19 +43,19 @@
   display: block;
 }
 .profile .profile_main .profile_txt {
-  font-size: 13px;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .profile .profile_main .profile_txt .profile_title {
-  font-weight: bold;
+  font-weight: 600;
 }
 .profile .profile_main .profile_txt .profile_title span {
   font-weight: 500;
 }
 .profile .profile_main .profile_txt .price {
-  font-weight: bold;
+  font-weight: 600;
   color: #000;
 }
 /* .profile .profile_main .profile_txt .price .price_letter {
