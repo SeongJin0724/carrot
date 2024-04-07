@@ -43,7 +43,7 @@
   display: block;
 }
 .profile .profile_main .profile_txt {
-  font-size: 13pxf;
+  font-size: 13px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
