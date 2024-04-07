@@ -59,11 +59,10 @@
 .profile .profile_main .profile_txt .price {
   font-weight: 600;
   color: #000;
+}
+.profile .profile_main .profile_txt .price .price_letter {
   opacity: 0.85;
 }
-/* .profile .profile_main .profile_txt .price .price_letter {
-  letter-spacing: 1.2px;
-} */
 .profile .profile_main .profile_txt .price .price_txt {
   color: #95999d;
   font-weight: 500;
