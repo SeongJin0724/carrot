@@ -43,7 +43,7 @@
   display: block;
 }
 .profile .profile_main .profile_txt {
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -71,7 +71,7 @@
 .profile .profile_icon {
   width: 100%;
   /* max-width: 102px; */
-  max-width: 120px;
+  max-width: 102px;
   margin-top: 9px;
 }
 .profile .profile_icon img {
