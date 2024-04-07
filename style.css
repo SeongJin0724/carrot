@@ -1,0 +1,141 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "San Francisco500";
+}
+
+.wrap {
+  width: 100%;
+  max-width: 390px;
+  height: 100vh;
+  max-height: 844px;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+}
+.header img {
+  width: 100%;
+  display: block;
+}
+.profile {
+  width: 100%;
+  max-width: 390px;
+  padding: 14px 17px 8px;
+}
+.profile .profile_main {
+  display: flex;
+}
+.profile .profile_main .thum {
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: black;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.profile .profile_main .thum img {
+  width: 100%;
+  display: block;
+}
+.profile .profile_main .profile_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile .profile_main .profile_txt .profile_title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.profile .profile_main .profile_txt .profile_title span {
+  font-weight: 500;
+}
+.profile .profile_main .profile_txt .price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.profile .profile_main .profile_txt .price .price_letter {
+  letter-spacing: 1.2px;
+}
+.profile .profile_main .profile_txt .price .price_txt {
+  color: #95999d;
+  font-weight: 500;
+}
+.profile .profile_icon {
+  width: 100%;
+  /* max-width: 102px; */
+  max-width: 120px;
+  margin-top: 9px;
+}
+.profile .profile_icon img {
+  width: 100%;
+  display: block;
+}
+.main {
+  width: 100%;
+  max-width: 390px;
+  height: 100vh;
+  max-height: 844px;
+  overflow: auto;
+  color: #000;
+}
+.main .pay {
+  width: 100%;
+  display: block;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer img {
+  width: 100%;
+  display: block;
+}
+@font-face {
+  font-family: "San Francisco100";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco200";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco400";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco500";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco600";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco700";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
