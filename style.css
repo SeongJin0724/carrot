@@ -84,7 +84,7 @@ img {
 .main {
   width: 100%;
   max-width: 385px;
-  height: 100vh;
+  height: 640px;
   max-height: 844px;
   overflow: auto;
   color: #000;
@@ -128,6 +128,11 @@ img {
   display: flex;
   align-items: end;
   margin-left: 17px;
+  margin-bottom: 6px;
+}
+.main .sellChat_wrap .profile_wrap {
+  display: flex;
+  align-items: start;
 }
 .main .sellChat_wrap span {
   display: block;
@@ -147,7 +152,6 @@ img {
   font-size: 14px;
   padding: 10px;
   border-radius: 16px;
-  margin-bottom: 6px;
 }
 .main .sellChat_wrap .sellChat_data {
   font-size: 12px;
