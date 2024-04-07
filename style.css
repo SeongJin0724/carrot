@@ -8,7 +8,7 @@
 
 .wrap {
   width: 100%;
-  max-width: 390px;
+  max-width: 388px;
   height: 100vh;
   max-height: 844px;
   position: relative;
@@ -23,7 +23,7 @@
   display: block;
 }
 .profile {
-  max-width: 390px;
+  max-width: 388px;
   padding: 14px 17px 8px;
 }
 .profile .profile_main {
@@ -59,9 +59,9 @@
   font-weight: bold;
   color: #000;
 }
-.profile .profile_main .profile_txt .price .price_letter {
+/* .profile .profile_main .profile_txt .price .price_letter {
   letter-spacing: 1.2px;
-}
+} */
 .profile .profile_main .profile_txt .price .price_txt {
   color: #95999d;
   font-weight: 500;
@@ -78,7 +78,7 @@
 }
 .main {
   width: 100%;
-  max-width: 390px;
+  max-width: 388px;
   height: 100vh;
   max-height: 844px;
   overflow: auto;
