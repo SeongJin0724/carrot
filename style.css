@@ -101,9 +101,13 @@
   display: flex;
   justify-content: end;
   align-items: end;
+  margin-right: 17px;
 }
 .main .meChat_wrap span {
   display: block;
+}
+.main .sellChat_wrap {
+  margin-left: 17px;
 }
 .main .sellChat_wrap span {
   display: block;
